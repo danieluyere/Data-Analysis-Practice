@@ -1,7 +1,4 @@
-# fname = input('Enter file name: ')
-
-# fhandle = open(fname, 'r')cls
-fhandle = open('nigeria_iaq_log.txt') 
+fhandle = open('dummy_iaq_log.txt') 
 
 tempList = list() #stores temperature values after each iteration
 total = 0
@@ -24,5 +21,6 @@ for temp in tempList:
     total = total + temp
     count = count + 1
 
-avg = total/count   
-print('The mean average of temperatures is', avg)   
+avg = total/count
+favg = round(avg, 3)   
+print('The mean average of temperatures is', favg)   
