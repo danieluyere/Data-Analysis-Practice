@@ -21,6 +21,7 @@ for line in fhandle:
         print(email)
         count = count + 1
 
+
 print(f'The total count of emails is {count}')
 
 
