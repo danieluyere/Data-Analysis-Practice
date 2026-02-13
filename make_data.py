@@ -1,3 +1,6 @@
+#Gemini v3 Pro created this to help me create a dummy IAQ file. 
+#One day I will understand the whole logic here 100%
+
 import random, datetime
 
 filename = "nigeria_iaq_log.txt"
